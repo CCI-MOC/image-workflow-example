@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/larsks/image-workflow-example:v0
+          image: ghcr.io/cci-moc/image-workflow-example:v0
           imagePullPolicy: Always
           ports:
             - name: gunicorn
